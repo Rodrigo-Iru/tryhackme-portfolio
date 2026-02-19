@@ -13,7 +13,7 @@ The purpose of this exercise is to introduce basic offensive security concepts b
 The lab demonstrates how hidden functionality within a web application can be discovered and abused.
 
 ## 🌐 FakeBank Web Application
-![Web ss](<img width="642" height="687" alt="image" src="https://github.com/user-attachments/assets/772b30bf-3ad2-4ef4-9b98-7ed829b2ca37" />)
+<img width="642" height="687" alt="image" src="https://github.com/user-attachments/assets/772b30bf-3ad2-4ef4-9b98-7ed829b2ca37" />
 
 --
 
