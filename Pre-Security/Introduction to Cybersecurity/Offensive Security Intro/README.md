@@ -7,6 +7,7 @@
 --
 
 ## 🧠 Lab Overview.
+
 A fake banking application called FakeBank is deployed in a controlled environment.
 The purpose of this exercise is to introduce basic offensive security concepts by analyzing a web application from an attacker’s perspective.
 The lab demonstrates how hidden functionality within a web application can be discovered and abused.
@@ -38,6 +39,7 @@ It requires:
 
 ## 💻 DIRB Execution 
 ![Terminal ss](<img width="565" height="535" alt="image" src="https://github.com/user-attachments/assets/35bfdb3a-905b-4f07-9241-1ffca000d09e" />)
+
 Some key parts of the output:
 - URL_BASE → The target URL provided to the tool
 - WORDLIST_FILES → The location of the wordlist used for brute-force testing
@@ -49,12 +51,14 @@ These discovered paths represent potential hidden functionality within the appli
 
 ## 🔐 Hidden Page.
 ![Page ss](<img width="648" height="619" alt="image" src="https://github.com/user-attachments/assets/52475f46-7d99-4ce2-a6c0-0fc6bf4c2f52" />)
+
 On this page, it was possible to submit an account number (provided at the beginning of the lab) and specify an amount to modify the account balance.
 This demonstrates how exposed administrative or backend functionality can be abused if proper access controls are not implemented.
 
 --
 
 ## 🧠 Security Insights
+
 This lab reinforced the importance of proper access control mechanisms.
 Hidden or unlinked endpoints should never be assumed secure. 
 If a resource is accessible without proper authorization checks, it becomes part of the attack surface.
